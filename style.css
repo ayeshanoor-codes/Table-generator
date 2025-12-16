@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: a;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url(https://i.pinimg.com/736x/17/3f/99/173f9966abbc432501cfd629a2e1a9c6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 5vw;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 28rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 0.8rem 4rem black;
+}
+
+/* Heading */
+.container h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Inputs */
+.container input {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+.container button {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    background: #667eea;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.container button:hover {
+    background: #5a67d8;
+}
+
+/* Result */
+#result {
+    margin-top: 1.5rem;
+    overflow-x: auto;
+    text-align: center;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+table td {
+    padding: 0.6rem;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+
